@@ -9,6 +9,7 @@ ul {
 body {
     background: darkolivegreen;
     max-width: 339px;
+    margin: 0 auto;
 }
 
 img {
@@ -72,9 +73,14 @@ h1{
     body {
         background: darkgrey;
         max-width: 890px;
+        margin: 0 auto;
 
     }
 
+    h1 {
+        display: flex;
+        margin-right: auto;
+    }
     .hidden-on-desktop {
         display: none;
     }
@@ -84,11 +90,14 @@ h1{
     /*}*/
 
     .nav-links {
+        display: flex;
         flex-direction: row;
         justify-content: flex-end;
+
     }
 
     .nav-link li{
+     display: flex;
      margin-left: auto;
     }
 
@@ -100,18 +109,4 @@ h1{
         height: 385px;
 
     }
-
-
-
-
-
-
-
 }
-
-
-
-/*@media screen and (min-width:1200px) {*/
-/*   */
-
-/*}*/
